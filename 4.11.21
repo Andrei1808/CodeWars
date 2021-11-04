@@ -1,0 +1,14 @@
+function isDivisible(n, x, y) {
+  if(n % y == 0 && n % x == 0){
+return true};
+  return false;
+}
+
+function remainder(a, b){
+  // Divide the larger argument by the smaller argument and return the remainder
+  if(a > b){
+return a % b;
+}
+  else{
+ return b % a;}
+}
