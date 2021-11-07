@@ -23,3 +23,9 @@ function litres(time) {
 };
   return Math.floor(x);
 }
+
+
+function nthEven(n){
+  // your code here
+return n * 2 - 2;
+}
