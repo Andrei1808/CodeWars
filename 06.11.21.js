@@ -85,3 +85,20 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
     // TODO
 };
 
+function findDifference(a, b) {
+    //loading...
+    let a1 = 1;
+    for(i = 0; i < a.length; ++i){
+        a1 *= a[i];}
+
+    let b1 = 1;
+    for(j = 0; j < b.length; ++j){
+        b1 *= b[j];
+    }
+    if(a1 > b1){
+        return a1 - b1;
+    }
+    else{return b1- a1;}
+}
+
+
