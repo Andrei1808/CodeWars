@@ -102,3 +102,16 @@ function findDifference(a, b) {
 }
 
 
+
+function howMuchILoveYou(nbPetals) {
+    let arr = ["I love you", "a little", "a lot", "passionately", "madly", "not at all"];
+    let arr2 = ["I love you", "a little", "a lot", "passionately", "madly", "not at all"];
+    for(let i = 0; i < arr.length; i++){
+        if(arr.length < nbPetals){
+            Array.prototype.push.apply(arr, arr2);
+        }
+        else if(i = nbPetals){return arr[i - 1];}
+    }
+}
+  
+
