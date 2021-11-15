@@ -113,5 +113,15 @@ function howMuchILoveYou(nbPetals) {
         else if(i = nbPetals){return arr[i - 1];}
     }
 }
-  
+
+
+function factorial(n){
+    //your code here
+    let x = 1;
+    for(let i = 0; i < n; i++){
+        x = x * (n - i);
+    }
+    return x;
+}
+
 
